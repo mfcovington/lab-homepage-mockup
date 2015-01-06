@@ -94,13 +94,13 @@
             <div class="item active">
               <div style="background:url(img/F1.large.jpg) center center;
                           background-size:cover;" class="slider-size">
-                <div class="carousel-caption">
+                <div class="carousel-caption container-fluid">
                   <h4>Polymorphism Identification and Improved Genome Annotation of Brassica rapa Through Deep RNA Sequencing</h4>
                   <h5>Devisetty et al., G3 (2014)</h5>
 
                   <!-- buttons -->
                   <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal-0"><span class="glyphicon glyphicon-info-sign"></span> more info</button>
-                  <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                  <div class="btn-group btn-group-sm hidden-xs" role="group" aria-label="...">
                     <a href="http://www.ncbi.nlm.nih.gov/pubmed/25122667" class="btn btn-primary" target="_blank">PubMed</a>
                     <a href="http://www.g3journal.org/content/4/11/2065.long" class="btn btn-success" target="_blank">G3</a>
                     <a href="pdf/2065.full.pdf" class="btn btn-warning" target="_blank">PDF</a>
@@ -114,13 +114,13 @@
             <div class="item">
               <div style="background:url(img/pc_112391_f2.jpg) center center;
                           background-size:cover;" class="slider-size">
-                <div class="carousel-caption">
+                <div class="carousel-caption container-fluid">
                   <h4>A Quantitative Genetic Basis for Leaf Morphology in a Set of Precisely Defined Tomato Introgression Lines</h4>
                   <h5>Chitwood et al., Plant Cell (2013)</h5>
 
                   <!-- buttons -->
                   <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal-1"><span class="glyphicon glyphicon-info-sign"></span> more info</button>
-                  <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                  <div class="btn-group btn-group-sm hidden-xs" role="group" aria-label="...">
                     <a href="http://www.ncbi.nlm.nih.gov/pubmed/23872539" class="btn btn-primary" target="_blank">PubMed</a>
                     <a href="http://www.plantcell.org/content/25/7/2465.long" class="btn btn-success" target="_blank">Plant Cell</a>
                     <a href="pdf/Plant Cell-2013-Chitwood-2465-81.pdf" class="btn btn-warning" target="_blank">PDF</a>
@@ -134,14 +134,13 @@
             <div class="item">
               <div style="background:url(img/gb-2008-9-8-r130-4-l.jpg) center center;
                           background-size:cover;" class="slider-size">
-                <div class="carousel-caption">
-
+                <div class="carousel-caption container-fluid">
                   <h4>Global transcriptome analysis reveals circadian regulation of key pathways in plant growth and development</h4>
                   <h5>Covington et al., Genome Biol. (2008)</h5>
 
                   <!-- buttons -->
                   <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal-2"><span class="glyphicon glyphicon-info-sign"></span> more info</button>
-                  <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                  <div class="btn-group btn-group-sm hidden-xs" role="group" aria-label="...">
                     <a href="http://www.ncbi.nlm.nih.gov/pubmed/18710561" class="btn btn-primary" target="_blank">PubMed</a>
                     <a href="http://genomebiology.com/2008/9/8/R130" class="btn btn-success" target="_blank">Genome Biology</a>
                     <a href="pdf/gb-2008-9-8-r130.pdf" class="btn btn-warning" target="_blank">PDF</a>
@@ -192,14 +191,31 @@
             </div><!-- /.container-fluid -->
           </div><!-- /.modal-body -->
 
-          <div class="modal-footer">
+          <div class="modal-footer hidden-xs">
             <div class="btn-group" role="group" aria-label="...">
               <a href="http://www.ncbi.nlm.nih.gov/pubmed/25122667" class="btn btn-primary" target="_blank">PubMed</a>
               <a href="http://www.g3journal.org/content/4/11/2065.long" class="btn btn-success" target="_blank">G3</a>
               <a href="pdf/2065.full.pdf" class="btn btn-warning" target="_blank">PDF</a>
             </div>
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div><!-- /.modal-footer -->
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div><!-- /.modal-footer hidden-xs -->
+
+          <div class="modal-footer visible-xs">
+            <div class="container-fluid">
+              <div class="row-fluid">
+                <div class="btn-group-vertical col-xs-12" role="group" aria-label="...">
+                  <a href="http://www.ncbi.nlm.nih.gov/pubmed/25122667" class="btn btn-primary" target="_blank">PubMed</a>
+                  <a href="http://www.g3journal.org/content/4/11/2065.long" class="btn btn-success" target="_blank">G3</a>
+                  <a href="pdf/2065.full.pdf" class="btn btn-warning" target="_blank">PDF</a>
+                </div>
+                <div class="btn-group-vertical col-xs-12" role="group" aria-label="...">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.modal-footer visible-xs -->
 
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
@@ -223,14 +239,31 @@
             </div><!-- /.container-fluid -->
           </div><!-- /.modal-body -->
 
-          <div class="modal-footer">
+          <div class="modal-footer hidden-xs">
             <div class="btn-group" role="group" aria-label="...">
               <a href="http://www.ncbi.nlm.nih.gov/pubmed/23872539" class="btn btn-primary" target="_blank">PubMed</a>
               <a href="http://www.plantcell.org/content/25/7/2465.long" class="btn btn-success" target="_blank">Plant Cell</a>
               <a href="pdf/Plant Cell-2013-Chitwood-2465-81.pdf" class="btn btn-warning" target="_blank">PDF</a>
             </div>
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div><!-- /.modal-footer -->
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div><!-- /.modal-footer hidden-xs -->
+
+          <div class="modal-footer visible-xs">
+            <div class="container-fluid">
+              <div class="row-fluid">
+                <div class="btn-group-vertical col-xs-12" role="group" aria-label="...">
+                  <a href="http://www.ncbi.nlm.nih.gov/pubmed/23872539" class="btn btn-primary" target="_blank">PubMed</a>
+                  <a href="http://www.plantcell.org/content/25/7/2465.long" class="btn btn-success" target="_blank">Plant Cell</a>
+                  <a href="pdf/Plant Cell-2013-Chitwood-2465-81.pdf" class="btn btn-warning" target="_blank">PDF</a>
+                </div>
+                <div class="btn-group-vertical col-xs-12" role="group" aria-label="...">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.modal-footer visible-xs -->
 
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
@@ -254,14 +287,31 @@
             </div><!-- /.container-fluid -->
           </div><!-- /.modal-body -->
 
-          <div class="modal-footer">
+          <div class="modal-footer hidden-xs">
             <div class="btn-group" role="group" aria-label="...">
               <a href="http://www.ncbi.nlm.nih.gov/pubmed/18710561" class="btn btn-primary" target="_blank">PubMed</a>
               <a href="http://genomebiology.com/2008/9/8/R130" class="btn btn-success" target="_blank">Genome Biology</a>
               <a href="pdf/gb-2008-9-8-r130.pdf" class="btn btn-warning" target="_blank">PDF</a>
             </div>
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div><!-- /.modal-footer -->
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div><!-- /.modal-footer hidden-xs -->
+
+          <div class="modal-footer visible-xs">
+            <div class="container-fluid">
+              <div class="row-fluid">
+                <div class="btn-group-vertical col-xs-12" role="group" aria-label="...">
+                  <a href="http://www.ncbi.nlm.nih.gov/pubmed/18710561" class="btn btn-primary" target="_blank">PubMed</a>
+                  <a href="http://genomebiology.com/2008/9/8/R130" class="btn btn-success" target="_blank">Genome Biology</a>
+                  <a href="pdf/gb-2008-9-8-r130.pdf" class="btn btn-warning" target="_blank">PDF</a>
+                </div>
+                <div class="btn-group-vertical col-xs-12" role="group" aria-label="...">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.modal-footer visible-xs -->
 
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
