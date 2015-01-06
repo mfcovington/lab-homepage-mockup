@@ -54,3 +54,7 @@ margin:0 auto; /* center your carousel if other than 100% */
                  0 0 0.5em black,
                  0 0 0.2em black;
 }
+
+.modal-footer .btn-group-vertical .btn + .btn {
+  margin-left: 0px;
+}
