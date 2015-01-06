@@ -1,0 +1,51 @@
+body {
+    padding-top: 70px;
+    background-color: #F0FFFF; /*http://en.wikipedia.org/wiki/Shades_of_white*/
+}
+
+/*.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+*/
+
+.carousel       {
+    /*width: 940px;*/
+    /*width: 75%;*/
+    /*margin: auto;*/
+    /*margin: 0 auto;*/
+    /*width: auto;*/
+    /*height: 500px;*/
+}
+
+.item img {
+    /*width:100%;*/
+}
+
+
+.slider-size {
+height: 400px; /* This is your slider height */
+}
+.carousel {
+width:100%;
+margin:0 auto; /* center your carousel if other than 100% */
+}
+
+.carousel-indicators li {
+/*    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+*/}
+
+.shadow {
+    text-shadow: 1px 1px 2px black,
+                 0 0 1em black,
+                 0 0 0.2em black;
+}
+
+.shadow-heavy {
+    text-shadow: 1px 1px 2px black,
+                 0 0 1em black,
+                 0 0 0.8em black,
+                 0 0 0.5em black,
+                 0 0 0.2em black;
+}
