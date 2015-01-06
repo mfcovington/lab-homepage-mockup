@@ -23,7 +23,7 @@ body {
 
 
 .slider-size {
-height: 400px; /* This is your slider height */
+height: 390px; /* This is your slider height */
 }
 .carousel {
 width:100%;
@@ -37,7 +37,8 @@ margin:0 auto; /* center your carousel if other than 100% */
 */}
 
 .carousel-caption {
-    background-color: rgba(111, 200, 200, 0.8);
+    background-color: rgba(119, 129, 134, 0.8);
+    /*background-color: rgba(111, 200, 200, 0.8);*/
 }
 
 .shadow {
