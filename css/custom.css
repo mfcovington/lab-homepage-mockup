@@ -36,6 +36,10 @@ margin:0 auto; /* center your carousel if other than 100% */
     box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
 */}
 
+.carousel-caption {
+    background-color: rgba(111, 200, 200, 0.8);
+}
+
 .shadow {
     text-shadow: 1px 1px 2px black,
                  0 0 1em black,
